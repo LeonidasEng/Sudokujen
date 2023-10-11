@@ -12,3 +12,9 @@ This program is so far a proof of concept, and can generate sudoku problems base
 - Rule 3 - The digits can only occur once per block (nonet)
 - Rule 4 - The sum of every single row, column and nonet must equal 45
 
+## Generator program
+This program is designed to generate new Sudoku puzzles using bruteforce method
+
+## Sudoku solver
+The first program proved too complicated at first, the Sudokujen program has been altered to do a simpler problem, trying to solve a specific Sudoku proved easier than trying to generate entirely new problems. I used a backtracking algorithm to resolve the predefined Sudoku puzzle.
+
