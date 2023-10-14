@@ -3,7 +3,7 @@ This is a repo for all files pertaining to Sudokujen program
 
 
 # Sudokujen - A Sudoku Generator in C
-This program is so far a proof of concept, and can generate sudoku problems based on a simple algorithm.
+This repo is so far a test bed to improve my knowledge, and I have been experimenting with different algorithms to understand how to solve this game.
 
 
 # Rules of Sudoku
@@ -13,8 +13,14 @@ This program is so far a proof of concept, and can generate sudoku problems base
 - Rule 4 - The sum of every single row, column and nonet must equal 45
 
 ## Generator program
-This program is designed to generate new Sudoku puzzles using bruteforce method
+This program is designed to generate new Sudoku puzzles using bruteforce method.
 
-## Sudoku solver
+## Sudoku generator - New
+Instead of trying to generate a Sudoku puzzle from scratch, I have used an existing Sudoku puzzle, made removals randomly from the grid and shuffled it in order to make a random sudoku problem. I can then use a backtracking algorithm to test its validity.
+
+With the new version, I know that if I could just reverse the steps I may be able to start from a blank puzzle and generate valid Sudokus from there.
+
+
+## Sudoku solver - Simpler
 The first program proved too complicated at first, the Sudokujen program has been altered to do a simpler problem, trying to solve a specific Sudoku proved easier than trying to generate entirely new problems. I used a backtracking algorithm to resolve the predefined Sudoku puzzle.
 
